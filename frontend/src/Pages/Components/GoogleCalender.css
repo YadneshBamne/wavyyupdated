@@ -1,0 +1,33 @@
+/* Style for FullCalendar Toolbar Buttons */
+.fc-button {
+  background-color: #9333ea; /* Purple color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 5px; /* Add gap between buttons */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.fc-button:hover {
+  background-color: #7e22ce; /* Darker purple on hover */
+}
+
+.fc-button:active {
+  background-color: #6b21a8; /* Even darker purple on active */
+}
+
+/* Adjust spacing and alignment */
+.fc-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.fc-toolbar-chunk {
+  display: flex;
+  gap: 8px; /* Adds gap between buttons */
+}

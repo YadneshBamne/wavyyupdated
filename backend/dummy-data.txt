@@ -1,0 +1,100 @@
+USE CHATGPT FOR MORE DUMMY DATAS
+
+Customer dummy datas
+
+
+  {
+    "customer_name": "Sophia Green",
+    "customer_phone": "5555555555",
+    "customer_reviews": "Good",
+    "booked_at": "2024-12-25",
+    "scheduled_date": "2024-12-30T10:30:00"
+  }
+
+
+  {
+    "customer_name": "Liam White",
+    "customer_phone": "4444444444",
+    "customer_reviews": "Bad",
+    "booked_at": "2024-12-20",
+    "scheduled_date": "2024-12-31T14:00:00"
+  }
+
+
+team members dummy datas
+
+
+  {
+    "profile_img": null,
+    "member_name": "Sarah Taylor",
+    "phone_number": "1234567890",
+    "member_email": "sarah.taylor@example.com",
+    "date_of_joining": "2023-01-15",
+    "access_type": "Super Admin"
+}
+
+
+  {
+    "profile_img": null,
+    "member_name": "David Wilson",
+    "phone_number": "9876543210",
+    "member_email": "david.wilson@example.com",
+    "date_of_joining": "2022-11-20",
+    "access_type": "Admin"
+  }
+
+
+
+
+
+
+
+
+
+
+businesses dummy data
+
+
+  {
+    "owner_name": "Emily Davis",
+    "phone_number": "1234567890",
+    "salon_name": "Emily's Glow Salon",
+    "owner_email": "emily.davis@example.com",
+    "gst": "29ABCDE1234F1Z5",
+    "salon_description": "A premium salon specializing in skin and hair care."
+  }
+
+
+  {
+    "owner_name": "Michael Brown",
+    "phone_number": "9876543210",
+    "salon_name": "The Luxe Barber",
+    "owner_email": "michael.brown@example.com",
+    "gst": "27ABCDE5678G2H6",
+    "salon_description": "An upscale barber shop offering luxurious services."
+  }
+
+
+services dummy data
+
+  {
+    "service_name": "Haircut",
+    "service_type": "Basic",
+    "menu_category": "Hair",
+    "duration_in_mins": 30,
+    "price": 300
+  }
+  {
+    "service_name": "Manicure",
+    "service_type": "Premium",
+    "menu_category": "Nails",
+    "duration_in_mins": 60,
+    "price": 1000
+  }
+  {
+    "service_name": "Facial",
+    "service_type": "Add-on",
+    "menu_category": "Skincare",
+    "duration_in_mins": 45,
+    "price": 800
+  }
