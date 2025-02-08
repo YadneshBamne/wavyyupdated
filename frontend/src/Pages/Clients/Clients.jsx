@@ -118,7 +118,7 @@ export default function ClientsList() {
           </div>
         </div>
 
-        <div className="bg-white shadow-md rounded-sm">
+        <div className="bg-white border border-gray-300 rounded-lg">
           <div className="flex space-x-4 p-7">
             <Input
               type="text"
@@ -132,7 +132,7 @@ export default function ClientsList() {
             />
             <Button
               variant="outline"
-              className="bg-purple-600 text-white hover:bg-purple-700 px-8 py-2 rounded-lg"
+              className="bg-purple-600 text-white hover:bg-purple-700 px-8 py-6 rounded-lg"
             >
               Export
             </Button>
@@ -141,7 +141,7 @@ export default function ClientsList() {
           {isLoading ? (
             <div className="p-5"><BarLoader className="mb-4" width={"100%"} color="#C3B1E1" /></div>
           ) : (
-            <Table className="w-full bg-white shadow-md rounded-lg">
+            <Table className="w-full bg-white">
               <TableHeader>
                 <TableRow>
                   <TableHead className="text-black">Client Name</TableHead>
@@ -154,13 +154,13 @@ export default function ClientsList() {
               <TableBody>
                 {clients.map((client) => (
                   <TableRow key={client.id}>
-                    <TableCell className="flex items-center space-x-4">
+                    <TableCell className="flex items-center space-x-4 ">
                       <span>{client.client_name}</span>
                     </TableCell>
                     <TableCell>{client.client_phone}</TableCell>
                     <TableCell>{client.client_email}</TableCell>
                     <TableCell>{client.client_type}</TableCell>
-                    <TableCell className="flex space-x-2">
+                    <TableCell className="flex space-x-2 ">
                       <button
                         className="text-black"
                         onClick={() => {

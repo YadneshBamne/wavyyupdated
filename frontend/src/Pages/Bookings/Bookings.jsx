@@ -175,7 +175,7 @@ export function Bookings() {
           </div>
         </div>
 
-        <div className="bg-white shadow-xl rounded-lg">
+        <div className="bg-white border border-gray-300 rounded-lg">
           {loading ? (
             <div className="text-center py-10">
              <BarLoader className="" width={"100%"} color="#CF9FFF" />

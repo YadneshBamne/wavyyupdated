@@ -127,13 +127,13 @@ export default function AddClientDrawer({ open, onOpenChange }) {
             <DialogTitle className="text-xl font-semibold">
               Add Client
             </DialogTitle>
-            <Button
+            {/* <Button
               variant="ghost"
               size="icon"
               className="h-6 w-6"
               onClick={() => onOpenChange(false)}
             >
-            </Button>
+            </Button> */}
           </div>
         </DialogHeader>
         <Form {...form}>

@@ -89,7 +89,7 @@ export function Navbar() {
 
       {/* Desktop Nav */}
       <div className="hidden sm:flex justify-center space-x-4">
-        <NavLink to="/dashboard" className="button-nav">
+        <NavLink to="/dashboard" className="button-nav ">
           <Button variant="ghost">
             <House stroke="purple" size={24} /> Home
           </Button>
@@ -133,11 +133,10 @@ export function Navbar() {
                 <AvatarImage
                   src={businessData.profileImage}
                   alt={businessData.ownerName}
+                  
                 />
               </Avatar>
-              <span className="text-sm font-medium">
-                {businessData.ownerName}
-              </span>
+              <span className="text-sm font-medium text-black">{businessData.ownerName}</span>
               <ChevronDown className="w-4 h-4 text-gray-500" />
             </div>
           </DropdownMenuTrigger>
