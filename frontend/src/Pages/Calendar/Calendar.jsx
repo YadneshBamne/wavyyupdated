@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Navbar } from "../Components/Navbar";
 import 'react-calendar/dist/Calendar.css';
-// import { Calendar } from "@/components/ui/calendar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { AppointmentCalendar } from "../Components/AppointmentCalendar";
@@ -155,7 +154,7 @@ export default function CalendarPage() {
           {/* Side Panel */}
           <div className="w-1/4 space-y-4">
             {/* Mini Calendar */}
-            <Calendar className="rounded-lg" />
+            <Calendar/>
 
             {/* Upcoming Appointments */}
             <Card className="outline outline-1 outline-gray-200">
